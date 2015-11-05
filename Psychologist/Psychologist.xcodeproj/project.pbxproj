@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE973A8B1BE79C7A00340BDB /* DiagnosedHappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE973A8A1BE79C7A00340BDB /* DiagnosedHappinessViewController.swift */; };
 		FEC3427D1BE72866007461BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3427C1BE72866007461BE /* AppDelegate.swift */; };
 		FEC3427F1BE72866007461BE /* PsychologistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3427E1BE72866007461BE /* PsychologistViewController.swift */; };
 		FEC342821BE72866007461BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC342801BE72866007461BE /* Main.storyboard */; };
@@ -14,9 +15,11 @@
 		FEC342871BE72866007461BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC342851BE72866007461BE /* LaunchScreen.storyboard */; };
 		FEC342901BE72CE9007461BE /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3428E1BE72CE9007461BE /* HappinessViewController.swift */; };
 		FEC342911BE72CE9007461BE /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3428F1BE72CE9007461BE /* FaceView.swift */; };
+		FEDA81271BE799AC00E71BD5 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA81261BE799AC00E71BD5 /* TextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE973A8A1BE79C7A00340BDB /* DiagnosedHappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosedHappinessViewController.swift; sourceTree = "<group>"; };
 		FEC342791BE72866007461BE /* Psychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC3427C1BE72866007461BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEC3427E1BE72866007461BE /* PsychologistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		FEC342881BE72866007461BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEC3428E1BE72CE9007461BE /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
 		FEC3428F1BE72CE9007461BE /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		FEDA81261BE799AC00E71BD5 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 			children = (
 				FEC3427C1BE72866007461BE /* AppDelegate.swift */,
 				FEC3427E1BE72866007461BE /* PsychologistViewController.swift */,
+				FE973A8A1BE79C7A00340BDB /* DiagnosedHappinessViewController.swift */,
 				FEC3428E1BE72CE9007461BE /* HappinessViewController.swift */,
+				FEDA81261BE799AC00E71BD5 /* TextViewController.swift */,
 				FEC3428F1BE72CE9007461BE /* FaceView.swift */,
 				FEC342801BE72866007461BE /* Main.storyboard */,
 				FEC342831BE72866007461BE /* Assets.xcassets */,
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEDA81271BE799AC00E71BD5 /* TextViewController.swift in Sources */,
 				FEC3427F1BE72866007461BE /* PsychologistViewController.swift in Sources */,
 				FEC342901BE72CE9007461BE /* HappinessViewController.swift in Sources */,
+				FE973A8B1BE79C7A00340BDB /* DiagnosedHappinessViewController.swift in Sources */,
 				FEC3427D1BE72866007461BE /* AppDelegate.swift in Sources */,
 				FEC342911BE72CE9007461BE /* FaceView.swift in Sources */,
 			);
@@ -258,6 +266,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Psychologist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.costardrouge.Psychologist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -269,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Psychologist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.costardrouge.Psychologist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -294,6 +304,7 @@
 				FEC3428D1BE72866007461BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
